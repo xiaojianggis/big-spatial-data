@@ -2,15 +2,11 @@
 Xiaojiang Li, Ph.D, MIT Senseable City Lab, https://xiaojianggis.github.io/li/
 
 ## 1. Configure Enviornment
-1.1. How to install jupyter on your computer
-Jupyter Notebook
+1.1 Install Anaconda and configure Python module ([link](lab1-basics-python-spatial-programing/install-anaconda.md))
 
-1.2. How to install Fiona on your computer
-Fiona (http://toblerity.org/fiona/manual.html)
+1.2. Be familar to Jupyter Notebook ([link](lab1-basics-python-spatial-programing/jupyter-notebook.md))
 
-1.3. Install GDAL on your computer
-GDAL (https://pcjericks.github.io/py-gdalogr-cookbook/)
-
+1.3. Python basics ([link](lab1-basics-python-spatial-programing/Basics-python-spatial-data.ipynb))
 
 ## 2. Python programming basics
 2.1 Python basics
