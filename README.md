@@ -1,27 +1,32 @@
 # Spatial-Data-Science
-Xiaojiang Li, Ph.D, MIT Senseable City Lab, https://xiaojianggis.github.io/li/
+Xiaojiang Li, Ph.D, Department of Geography and Urban Studies, Temple University, http://www.urbanspatial.info/
 
-## 1. Configure Enviornment
+## 1. Configure Enviornment and Python basics
 1.1 Install Anaconda and configure Python module ([link](lab1-basics-python-spatial-programing/install-anaconda.md))
 
 1.2. Be familar to Jupyter Notebook ([link](lab1-basics-python-spatial-programing/jupyter-notebook.md))
 
 1.3. Python basics ([link](lab1-basics-python-spatial-programing/Basics-python-spatial-data.ipynb))
 
-## 2. Python programming basics
-2.1 Python basics
+## 2. Basics of GIS programming
+2.1 Python spatial module ecosystem
 
-2.2 Read shapefile and geo-referenced raster data using Python
+2.2 Using Geopandas to read shapefiles and do spatial join
+
+2.3 Read shapefile and geo-referenced raster data using Python
+
 
 
 ## 3. Spatial Data Manipulation
-2.1 Read Shapefile using gdal
+3.1 Read Shapefile using Fiona
 
-2.2 Using Geopandas for basic spatial analysis
+3.2 Using Fiona and Shapely to overlay shapefiles
 
-2.3 Using Fiona and Shapely for spatial analysis (advanced)
 
-2.4 Dowload online data (Google Street View images and tweet) and do basic anlayses
+## 4. Raster data operations
+4.1 Using Rasterio to read geo-reference raster data
+
+4.2 Using rasterio to manipulate raster data
 
 
 ## More coming up! 
