@@ -37,7 +37,7 @@ Now we have the required environment ready. Let's start the `Jupyter Notebook` a
 2. Start the Jupyter Notebook by typing `jupyter notebook` in the terminal. Then you web browser will start automatically and guide you to the notebook. You can then write Python code over there. 
 
 ## What Next
-Go to open the test Jupyter Notebook file [link](PythonBasic.ipynb). You can open the `ipynb` file directly or copy the statment to you newly created notebook. 
+Go to open the test Jupyter Notebook file [link](Basics-python-spatial-data.ipynb). You can open the `ipynb` file directly or copy the statment to you newly created notebook. 
 
 #### Reference
 1. Jupyter notebook for beginners, https://realpython.com/jupyter-notebook-introduction/
