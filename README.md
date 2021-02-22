@@ -16,7 +16,6 @@ Xiaojiang Li, Ph.D, Department of Geography and Urban Studies, Temple University
 2.3 Read shapefile and geo-referenced raster data using Python
 
 
-
 ## 3. Spatial Data Manipulation
 3.1 Read Shapefile using Fiona
 
@@ -24,10 +23,19 @@ Xiaojiang Li, Ph.D, Department of Geography and Urban Studies, Temple University
 
 
 ## 4. Raster data operations
-4.1 Using Rasterio to read geo-reference raster data
+4.1. Download NAIP images automatically
 
-4.2 Using rasterio to manipulate raster data
+4.2. Using Rasterio to manipulate geo-reference raster data, (mosaic, mask, ndvi...)
 
+4.3. Overlay vector data on raster (zonal statistics)
+
+
+## 5. Spatial database
+5.1 Install Postgres/Postgis
+
+5.2. Basics of SQL
+
+5.3. Spatial Analyses through SQL queries
 
 ## More coming up! 
 
