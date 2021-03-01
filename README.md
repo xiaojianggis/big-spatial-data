@@ -37,7 +37,7 @@ Xiaojiang Li, Ph.D, Department of Geography and Urban Studies, Temple University
 
 5.3. Spatial Analyses through SQL queries
 
-## 6. Access Spatial Database using Python
+## 6. Access Spatial Database using Python ([link](lab6-access-db-python/querydb_python.ipynb))
 6.1 Access Postgres/PostGIS database using Python
 
 6.2 Read shapefile and save features into database tables using Python
