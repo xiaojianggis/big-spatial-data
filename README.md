@@ -44,5 +44,6 @@ Xiaojiang Li, Ph.D, Department of Geography and Urban Studies, Temple University
 
 6.3 Save query results into shapefiles using Python
 
+## 7. AWS
 ## More coming up! 
 
