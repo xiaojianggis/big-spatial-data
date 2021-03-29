@@ -5,12 +5,17 @@ This week we are going to talk about using Github and publish your webpage onlin
 ## 1. Prepare the data
 ### 1.1 Download the dataset
 You need the building footprint and the land use map in Philadelphia. You can download the `Philadelphia Buildings` and `Philadelphia Planning - Land Use` from the [PASDA website]([https://www.pasda.psu.edu/). A simple way to access the data is to download these data in you AWS terminal using `wget`. First find your dataset in the website, and then right click the link and copy the link address, then use wget to download it. For example, I can `ssh` to my AWS EC2, then type in,
+
 `wget ftp://ftp.pasda.psu.edu/pub/pasda/philacity/data/PhiladelphiaBuildings2017.zip`
 
 You can then download the land use map in a similar way. You can check if you have file downloaded, using `ls` in your terminal. If you can see the zip file, then you can unzip these two shapefiles,
 `unzip PhiladelphiaBuildings2017.zip`
+
 `unzip PhillyPlanning_Land_Use.zip`
 
+You can then use the Rtree to do the intersection of the building footprint and land use map to assign land use information to the building footprint. You are not required to do this, but if you can finish this part in Python and submit your notebook you will get extra two points.
+
+If you don't want to do that, you can download the shapefile I prepared from [here](https://drive.google.com/file/d/1UZB-1zH0vh37ALYfojm31I9pA_Azkouh/view?usp=sharing).
 
 ### 1.2 Convert the land use map into geojson file
 In this lab, we are going to use Mapbox to visualize the building block shapefile. However, on web-based GIS system, shapefile is not a well-supported format. Therefore, we need to convert the shapefile into other format for visualization. The first step to do the conversion is to convert shapefile into geojson file, we nee to install gdal command in our EC2, 
@@ -24,7 +29,7 @@ For more details about installing the gdal command check this [link] (https://mo
 
 When you install the command tool successfully, you can then use this command to convert your 	`PhiladelphiaBuildings2017.shp` to a geojsonfile. 
 
-`ogr2ogr -f GeoJSON -t_srs crs:84 buildings_ft.geojson PhiladelphiaBuildings2017.shp`
+`ogr2ogr -f GeoJSON -t_srs crs:84 buildings_ft.geojson building_ft_lu.shp`
 
 
 ### 1.3 Convert the geojson file into mbtile file
