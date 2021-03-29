@@ -44,6 +44,13 @@ Xiaojiang Li, Ph.D, Department of Geography and Urban Studies, Temple University
 
 6.3 Save query results into shapefiles using Python
 
-## 7. AWS
-## More coming up! 
+## 7. AWS (Check Canvas)
+## 8. Google Earth Engine (On canvas)
+## 9. Big data visualization [link](lab9-geoviz/lab9.buildingblock_viz)
+9.1 Convert shapefile to geojson and mbtile
+
+9.2 Using Mapbox studio to visualize building blocks
+
+9.3 Using GitHub to host your web map
+
 
