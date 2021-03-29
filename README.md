@@ -46,7 +46,7 @@ Xiaojiang Li, Ph.D, Department of Geography and Urban Studies, Temple University
 
 ## 7. AWS (On canvas)
 ## 8. Google Earth Engine (On canvas)
-## 9. Big data visualization ([link](lab9-geoviz/lab9.buildingblock_viz))
+## 9. Big data visualization ([link](lab9-geoviz/lab9.buildingblock_viz.md))
 9.1 Convert shapefile to geojson and mbtile
 
 9.2 Using Mapbox studio to visualize building blocks
