@@ -19,8 +19,10 @@ If you don't want to do that, you can download the shapefile I prepared from [he
 
 ### 1.2 Convert the land use map into geojson file
 In this lab, we are going to use Mapbox to visualize the building block shapefile. However, on web-based GIS system, shapefile is not a well-supported format. Therefore, we need to convert the shapefile into other format for visualization. The first step to do the conversion is to convert shapefile into geojson file, we nee to install gdal command in our EC2, 
+`sudo apt-get update`
 
 `sudo apt install gdal-bin`
+
 `sudo add-apt-repository ppa:ubuntugis/ppa
 `
 
