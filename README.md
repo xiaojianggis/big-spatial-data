@@ -16,7 +16,7 @@ Xiaojiang Li, Ph.D, Department of Geography and Urban Studies, Temple University
 2.3 Read shapefile and geo-referenced raster data using Python
 
 
-## 3. Spatial Data Manipulation
+## 3. Spatial Data Manipulation([link](lab3-advanced-vector-manipulation/SpatialAnalysis_Fiona_Shapely.ipynb))
 3.1 Read Shapefile using Fiona
 
 3.2 Using Fiona and Shapely to overlay shapefiles
