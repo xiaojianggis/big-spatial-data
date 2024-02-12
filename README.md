@@ -23,11 +23,11 @@ Xiaojiang Li, Ph.D, Department of Geography and Urban Studies, Temple University
 
 
 ## 4. Raster data operations
-4.1. Download NAIP images automatically
+4.1. Download NAIP images automatically ([link](lab4-raster-data-manipulation/naip-downloader.ipynb))
 
-4.2. Using Rasterio to manipulate geo-reference raster data, (mosaic, mask, ndvi...)
+4.2. Using Rasterio to manipulate geo-reference raster data, (mosaic, mask, ndvi...) ([link](lab4-raster-data-manipulation/clip-merge-tiles.ipynb))
 
-4.3. Overlay vector data on raster (zonal statistics)
+4.3. Raster data manipulate and zonal statistics ([link](lab4-raster-data-manipulation/Raster-data-manipulation.ipynb))
 
 
 ## 5. Spatial database
